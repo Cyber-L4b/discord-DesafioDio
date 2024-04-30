@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans";
+
+}
+
+
+header{
+    background-image: url(img/Header\ Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -48em;
+    padding: 60px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header h1{
+    max-width: 17.3rem;
+    font-family: "Luckiest Guy";
+    font-weight: 400;
+    font-size: 2.5rem; 
+    display: flex;
+    text-align: start;
+}
+
+
+
+header p{
+    max-width: 23.8rem;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 1em 0;
+}
+
+#baixar__discord, #abrir__discord{
+    width: 22rem;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    border-radius: 24px;
+    margin-bottom: 1em;
+
+}
+
+#abrir__discord{
+    background: #23272A;
+    color: white;
+}
+header div{
+    display: flex;
+    flex-direction: column;
+}
+
+main section{
+    padding: 2rem 1rem;
+}
+
+main h2{
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+    margin-top: 1rem;
+}
+
+main p{
+    margin-top: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    color: #23272A;
+}
+
+.contêiner__seçao-img{
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contêiner__seçao{
+    background-color: #F6F6F6;
+}
+
+footer{
+    background-color: #23272A;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 1200px) {
+    header{
+        background-size: cover;
+        background-position:center;
+        height: 28.6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header div{
+        align-items: center;
+        margin-top: 2em;
+    }
+
+    header h1{
+        text-align: center;
+        font-size: 3.5rem;
+        max-width: 20.3rem;
+    }
+
+    header p{
+        text-align: center;
+        max-width: 47.3rem;
+        margin: 2em 0;
+    }
+
+    .acesso__botao{
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    #baixar__discord, #abrir__discord{
+        width: auto; 
+        padding: 1em 2em; 
+    }
+
+    #baixar__discord:hover {
+        background-color: #c2c2c2;
+    }
+
+    #abrir__discord:hover {
+        background-color: #383838;
+    }
+
+    .setor-1{
+        display: flex;
+    }
+
+    main img{
+        width: 607px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main h2{
+        font-size: 40px;
+        width: 20.5rem;
+    }
+
+    main p{
+        width: 21.7rem;
+    }
+
+    section{
+        display: flex;
+        align-items: center;
+    }
+
+    .contêiner__seçao{
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .contêiner__seçao2{
+        flex-direction: column;
+    }
+
+    .contêiner__seçao-titulo{
+        width: 38rem;
+        text-align: center;
+    }
+
+    .contêiner__seçao-texto{
+        width: 50.1rem;
+    }
+
+    .contêiner__seçao-img{
+        width: 49rem;
+    }
+    
+}
